@@ -186,24 +186,6 @@ public class CatalaME extends MIDlet implements CommandListener, ItemCommandList
     private Image image2;
     //</editor-fold>//GEN-END:|fields|0|
 
-    private InputStream urlToStream(String url) throws IOException {
-        // Open connection to the http url...
-        HttpConnection connection = (HttpConnection) Connector.open(url);
-        DataInputStream dataIn = connection.openDataInputStream();
-        byte[] buffer = new byte[1000];
-        int read = -1;
-        // Read the content from url.
-        ByteArrayOutputStream byteout = new ByteArrayOutputStream();
-        while ((read = dataIn.read(buffer)) >= 0) {
-            byteout.write(buffer, 0, read);
-        }
-        dataIn.close();
-        // Fill InputStream to return with content read from the URL.
-        ByteArrayInputStream byteIn = new ByteArrayInputStream(byteout.toByteArray());
-        return byteIn;
-
-    }
-
     /**
      * Displays an error message in Alert.
      * 
@@ -219,112 +201,11 @@ public class CatalaME extends MIDlet implements CommandListener, ItemCommandList
             display.setCurrent(alert, current);
         }
     }
-
-    protected String getFileListAsString(String path) {
-        String strFileList = "";
-        try {
-            FileConnection fc = (FileConnection) Connector.open(path, Connector.READ);
-            Enumeration filelist = fc.list("*", true); //also hidden files are shown
-
-            String filename;
-            while (filelist.hasMoreElements()) {
-                filename = (String) filelist.nextElement();
-                fc = (FileConnection) Connector.open(path + filename, Connector.READ);
-                if (fc.isDirectory()) {
-                    long size = fc.directorySize(false);
-                    strFileList += (filename + " - " + Integer.toString((int) size) + "B\n");
-                //form.append(filename + " - " + Integer.toString((int) size) + "B\n");
-                } else {
-                    long size = fc.fileSize();
-                    strFileList += (filename + " - " + Integer.toString((int) size) + "B\n");
-                //form.append(filename + " - " + Integer.toString((int) size) + "B\n");
-                }
-            }
-            fc.close();
-        } catch (IOException ioe) {
-            System.out.println("IOException: " + ioe.getMessage());
-        } catch (SecurityException se) {
-            System.out.println("SecurityException: " + se.getMessage());
-        }
-
-
-        return strFileList;
-    }
-
-    protected void getFileList(String path) {
-        try {
-            FileConnection fc = (FileConnection) Connector.open(path, Connector.READ);
-            Enumeration filelist = fc.list("*", true); //also hidden files are shown
-
-            String filename;
-            while (filelist.hasMoreElements()) {
-                filename = (String) filelist.nextElement();
-                fc = (FileConnection) Connector.open(path + filename, Connector.READ);
-                if (fc.isDirectory()) {
-                    long size = fc.directorySize(false);
-                    form.append(filename + " - " + Integer.toString((int) size) + "B\n");
-                } else {
-                    long size = fc.fileSize();
-                    form.append(filename + " - " + Integer.toString((int) size) + "B\n");
-                }
-            }
-            fc.close();
-        } catch (IOException ioe) {
-            System.out.println("IOException: " + ioe.getMessage());
-        } catch (SecurityException se) {
-            System.out.println("SecurityException: " + se.getMessage());
-        }
-    }
-
-    public String createRootList() {
-        String roots = "Roots:\n";
-        Enumeration drives = FileSystemRegistry.listRoots();
-        while (drives.hasMoreElements()) {
-            String driveString = drives.nextElement().toString();
-            roots += driveString + "\n";
-        }
-        return roots;
-    }
-
     /**
      * The CatalaME constructor.
      */
     public CatalaME() {
-
         playEmbebdedFile("benvingut.mp3");
-    //getAlabast1().setTitle(getFileListAsString("file:///e:/"));
-    //getFileList("file:///e:/");
-    //getAlabast1().setTitle(System.getProperty("microedition.io.file.FileConnection.version"));
-
-    //alertError(System.getProperty("fileconn.dir.memorycard.name"));
-    //alertError(createRootList());
-    //playMusic();
-
-//        String url = System.getProperty("file.separator");
-//        getAlabast1().setTitle(url);
-//        try {
-//
-////            FileConnection fc = (FileConnection) Connector.open("file:///e:/test.mp3");
-////            getAlabast1().setTitle(fc.getPath() + " " + fc.getURL() + " " + fc.getName());
-//            InputStream is = urlToStream("file:///e:/Mis Cosas/2gb/test.mp3");
-//            //InputStream is = getClass().getResourceAsStream("file:///test.mp3");
-//            Player player = Manager.createPlayer(is, "audio/mpeg");
-//            
-//            player.realize();
-//
-//            getAlabast1().setTitle(url);
-//            // get volume control for player and set volume to max
-//            VolumeControl vc = (VolumeControl) player.getControl("VolumeControl");
-//            if (vc != null) {
-//                vc.setLevel(100);
-//            }
-//            player.prefetch();
-//            player.start();
-//        } catch (Exception e) {
-//            getAlabast1().setTitle(e.getMessage());
-//        }
-//
-
     }
 
     //<editor-fold defaultstate="collapsed" desc=" Generated Methods ">//GEN-BEGIN:|methods|0|
@@ -641,11 +522,6 @@ public class CatalaME extends MIDlet implements CommandListener, ItemCommandList
     // write post-action user code here
     }//GEN-BEGIN:|7-commandAction|92|
     //</editor-fold>//GEN-END:|7-commandAction|92|
-
-
-
-
-
 
     //<editor-fold defaultstate="collapsed" desc=" Generated Getter: exitCommand ">//GEN-BEGIN:|18-getter|0|18-preInit
     /**
@@ -1994,37 +1870,6 @@ public class CatalaME extends MIDlet implements CommandListener, ItemCommandList
     }
     //</editor-fold>//GEN-END:|289-getter|2|
 
-    /**
-     * Performs an action assigned to the s1 switch-point.
-     */
-//    public void s1() {
-//        switch (getChapter1Item()) {
-//            case 0:
-//                playMP3("1 A su alcance/b01-01.mp3");
-//                break;
-//            case 1:
-//                playMP3("1 A su alcance/b01-02.mp3");
-//                break;
-//            case 2:
-//                playMP3("1 A su alcance/b01-03.mp3");
-//
-//                break;
-//            case 3:
-//                playMP3("1 A su alcance/b01-04.mp3");
-//
-//                break;
-//            case 4:
-//                playMP3("1 A su alcance/b01-05.mp3");
-//                break;
-//            case 5:
-//                playMP3("1 A su alcance/b01-06.mp3");
-//                break;
-//            case 6:
-//                playMP3("1 A su alcance/b01-07.mp3");
-//                break;
-//        }
-//    }
-
     //<editor-fold defaultstate="collapsed" desc=" Generated Getter: itemCommand1 ">//GEN-BEGIN:|296-getter|0|296-preInit
     /**
      * Returns an initiliazed instance of itemCommand1 component.
@@ -3363,41 +3208,6 @@ public class CatalaME extends MIDlet implements CommandListener, ItemCommandList
         return spacer;
     }
     //</editor-fold>//GEN-END:|453-getter|2|
-
-    public int getChapter1Item() {
-        
-        return tableItem1.getSelectedCellRow();
-    }
-
-    public void playMusic() {
-        try {
-            InputStream is = getClass().getResourceAsStream("/sound/sound.mp3");
-            Player player = Manager.createPlayer(is, "audio/mpeg");
-
-            player.realize();
-            // get volume control for player and set volume to max
-            VolumeControl vc = (VolumeControl) player.getControl("VolumeControl");
-            if (vc != null) {
-                vc.setLevel(100);
-            }
-            player.prefetch();
-            player.start();
-        } catch (Exception e) {
-        }
-
-//        try {
-//            InputStream input = getClass().getResourceAsStream("sound/sound.mp3");
-//
-//            Player player = Manager.createPlayer(input, "audio/mpeg");
-//
-//            player.realize();
-//            player.prefetch();
-//        } catch (IOException ex) {
-//            ex.printStackTrace();
-//        } catch (MediaException ex) {
-//            ex.printStackTrace();
-//        }
-    }
 
     public int getMainTableRow() {
         return tableItem.getSelectedCellRow();
