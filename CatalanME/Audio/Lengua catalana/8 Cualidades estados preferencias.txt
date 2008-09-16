@@ -1,0 +1,45 @@
+QUALITATS, ESTATS, PREFERÈNCIES
+	
+CUALIDADES, ESTADOS, PREFERENCIAS
+
+	1. Som alt. Som més alt. Som el més alt. Som alta. Som més alta. Som la més alta. 	
+	   Soy alto. Soy más alto. Soy el más alto. Soy alta. Soy más alta. Soy la más alta.
+
+	2. Estic bé. / Em trob bé. Estic molt bé. / Em trob molt bé. No estic gaire bé. / No em trob gaire bé. 	
+	   Estoy bien. / Me encuentro bien. Estoy muy bien. / Me encuentro muy bien. No estoy muy bien. / No me encuentro muy bien.
+
+	3. Tenc gana. Tenc set. Tenc molta gana. Tenc molta set. 	
+	   Tengo hambre. Tengo sed. Tengo mucha hambre. Tengo mucha sed.
+
+	4. Tenc fred. Tenc calor. Tenc molt de fred. Tenc molta calor. 	
+	   Tengo frío. Tengo calor. Tengo mucho frío. Tengo mucho calor.
+
+	5. Tenc por. Tenc molta por. Això em fa por. Això em fa molta de por. 	
+	   Tengo miedo. Tengo mucho miedo. Esto me da miedo. Esto me da mucho miedo.
+
+	6. És fàcil. Sembla fàcil. És difícil. Sembla difícil. 	
+	   Es fácil. Parece fácil. Es difícil. Parece difícil.
+
+	7. Em fa mal el coll. Em fan mal les cames. 	
+	   Me duele el cuello. Me duelen las piernas.
+
+	8. Tenc mal de cap. Tenc febre. 	
+	   Me duele la cabeza. Tengo fiebre.
+
+	9. Necessit ajuda. Necessit un metge. Necessit una ambulància. 	
+	   Necesito ayuda. Necesito un médico. Necesito una ambulancia.
+
+	10. Tenc ganes de passejar. M’agradaria passejar. 	
+	    Tengo ganas de pasear. Me gustaría pasear.
+	11. M’estim més anar al cinema. 	
+            Prefiero ir al cine.
+
+	12. M’agrada llegir. M’agrada aquesta ciutat. 	
+	    Me gusta leer. Me gusta esta ciudad.
+
+	13. Em fa ganes. Em fa ilúlusió. Em fa gràcia. 	
+	    Me apetece. Me hace ilusión. Me hace gracia.
+
+	14. Em costa molt. Em duu molta feina. 	
+	    Me cuesta mucho. Me cuesta mucho trabajo.
+

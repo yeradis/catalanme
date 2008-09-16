@@ -1,0 +1,21 @@
+TEMPS
+	
+TIEMPO
+
+	1. - Quin temps fa avui? - Avui fa bon dia. | Avui fa mal dia. 	
+	   - ¿Qué tiempo hace hoy? - Hoy hace un buen día. | Hoy hace un mal día.
+
+	2. Fa fred. Fa calor. Fa molt de fred. Fa molta calor. 	
+           Hace frío. Hace calor. Hace mucho frío. Hace mucho calor.
+
+	3. Plou. Neva. Fa sol. 	
+           Llueve. Nieva. Hace sol.
+
+	4. Està tapat. Està ennigulat. Està estirat. 	
+	   Está nublado. Está despejado.
+
+	5. Fa vent. Fa trons i llamps. 	
+           Hace viento. Truena y relampaguea.
+
+	6. Hi ha boira. Hi ha humitat. Fa un temps molt sec. 	
+	   Hay niebla. Hay humedad. Hace un tiempo muy seco.

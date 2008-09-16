@@ -1,0 +1,16 @@
+COLORS
+	
+COLORES
+
+	1. Blanc, beix, groc, carabassa, verd, blau, lila, vermell, grana, marró, gris, negre. 	
+	   Blanco, beige, amarillo, naranja, verde, azul, lila, rojo, grana, marrón, gris, negro.
+
+	2. - De quin color és? - És de color blanc. / És blanc. | És de color blau. / És blau. 	
+	   - ¿De qué color es? - Es de color blanco. / Es blanco. | Es de color azul. / Es azul.
+
+	3. M’agrada aquest color. No m’agrada gens aquest color. 	
+	   Me gusta este color. No me gusta nada este color.
+
+	4. És massa clar. No és gaire fosc. 	
+	   Es demasiado claro. No es muy oscuro.
+

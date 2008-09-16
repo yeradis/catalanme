@@ -1,0 +1,15 @@
+NUMERALS
+	
+NUMERALES
+
+	1. U / un / una, dos / dues, tres, quatre, cinc, sis, set, vuit, nou, deu. 	
+	   Un / uno / una, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.
+
+	2. Onze, dotze, tretze, catorze, quinze, setze, desset/disset, devuit/divuit, denou/dinou, vint. 	
+	   Once, doce, trece, catorce, quince, dieciséis, diecisiete, dieciocho, diecinueve, veinte.
+
+	3. Trenta, quaranta, cinquanta, seixanta, setanta, vuitanta, noranta, cent, mil. 	
+	   Treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien, mil.
+
+	4. Mig / mitja, un quart, dos quarts, una dotzena. 	
+	   Medio / media, un cuarto, dos cuartos, una docena.

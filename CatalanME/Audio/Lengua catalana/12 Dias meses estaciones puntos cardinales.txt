@@ -1,0 +1,27 @@
+DIES, MESOS, ESTACIONS, PUNTS CARDINALS
+	
+DÍAS, MESES, ESTACIONES, PUNTOS CARDINALES
+
+	1. Dilluns, dimarts, dimecres, dijous, divendres, dissabte, diumenge. 	
+	   Lunes, martes, miércoles, jueves, viernes, sábado, domingo.
+
+	2. Gener, febrer, març, abril, maig, juny, juliol, agost, setembre, octubre, novembre, desembre. 	
+	   Enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre.
+
+	3. Primavera, estiu, tardor, hivern. 	
+	   Primavera, verano, otoño, invierno.
+
+	4. Nord, sud, est, oest. 	
+	   Norte, sur, este, oeste.
+
+	5. Els dimarts hi ha mercat. Dimecres vaig a Barcelona. 	
+	   Los martes hay mercado. El miércoles voy a Barcelona.
+
+	6. El curs comença pel febrer. Es casen pel març. 	
+	   El curso empieza en enero. Se casan en marzo.
+
+	7. Som a la primavera. A l’estiu fa calor. 	
+	   Estamos en primavera. En verano hace calor.
+
+	8. Pollença és al nord. Santanyí és al sud. 	
+	   Pollença está en el norte. Santanyí está en el sur.
