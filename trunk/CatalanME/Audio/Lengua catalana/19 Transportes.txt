@@ -1,0 +1,10 @@
+TRANSPORTS
+	
+TRANSPORTES
+
+	1. Anar a peu. Anar amb bicicleta. Anar amb moto. Anar amb cotxe. Anar amb tren. Anar amb autobús. Anar amb avió. Anar amb barca. Anar amb vaixell. 	
+	   Ir a pie. Ir en bicicleta. Ir en moto. Ir en coche. Ir en tren. Ir en autobús. Ir en avión. Ir en barca. Ir en barco.
+
+	2. Agafar la bicicleta. Agafar la moto. Agafar el cotxe. Agafar el tren. Agafar l’autobús. Agafar l’avió. Agafar la barca. Agafar el vaixell. 	
+	   Coger la bicicleta. Coger la moto. Coger el coche. Coger el tren. Coger el autobús. Coger el avión. Coger la barca. Coger el barco.
+

@@ -1,0 +1,30 @@
+FEINA, ESTUDIS, PROFESSIONS
+	
+TRABAJO, ESTUDIOS, PROFESIONES
+
+	1. Avui és dia feiner. Avui és dia festiu. 	
+	   Hoy es día laborable. Hoy es día festivo.
+
+	2. Faig vacances. Vaig a fer feina. 	
+	   Tengo vacaciones. Voy a trabajar.
+
+	3. Faig feina de perruquer. Faig feina de perruquera. Faig feina de cambrer. Faig feina de cambrera. 	
+	   Trabajo como peluquero. Trabajo como peluquera. Trabajo como camarero. Trabajo como camarera.
+
+	4. No tenc feina. Estic a l’atur. 	
+	   No tengo trabajo. Estoy en el paro.
+
+	5. Cerc feina. Necessit una feina. 	
+	   Busco trabajo. Necesito un trabajo.
+
+	6. Som comerciant. Som professor. Som professora. Som pagès. Som pagesa. 	
+	   Soy comerciante. Soy profesor. Soy profesora. Soy campesino. Soy campesina.
+
+	7. Estudii català. Estudii francès. Estudii espanyol. Estudii alemany. Estudii anglès. 	
+	   Estudio catalán. Estudio francés. Estudio español. Estudio alemán. Estudio inglés.
+
+	8. Estudii matemàtiques. Estudii psicologia. Estudii química. Estudii filologia. Estudii dret. 	
+	   Estudio matemáticas. Estudio psicología. Estudio química. Estudio filología. Estudio derecho.
+
+	9. Saps nedar? Saps cuinar? Saps parlar català? 	
+	   ¿Sabes nadar? ¿Sabes cocinar? ¿Sabes hablar catalán?

@@ -1,0 +1,33 @@
+FAMÍLIA, ESTAT CIVIL I HABITATGE
+	
+FAMILIA, ESTADO CIVIL Y VIVIENDA
+
+	1. Pare, mare, fill, filla, germà, germana. 	
+	   Padre, madre, hijo, hija, hermano, hermana.
+
+	2. Padrí /avi, padrina /àvia, nét, néta. 	
+	   Abuelo, abuela, nieto, nieta.
+
+	3. Espòs / home, esposa / dona, company, companya. 	
+	   Esposo / marido, esposa / mujer, compañero, compañera.
+
+	4. Cosí, cosina, oncle, tia, nebot, neboda. 	
+	   Primo, prima, tío, tía, sobrino, sobrina.
+
+	5. Cunyat, cunyada, gendre, nora. 	
+	   Cuñado, cuñada, yerno, nuera.
+
+	6. Som casat. Som fadrí. Som divorciat. Som vidu. Som casada. Som fadrina. Som divorciada. Som vídua. 	
+	   Estoy casado. Soy soltero. Estoy divorciado. Soy viudo. Estoy casada. Soy soltera. Estoy divorciada. Soy viuda.
+
+	7. Tenc tres fills. Tenc cinc néts. 	
+	   Tengo tres hijos. Tengo cinco nietos.
+
+	8. A ca nostra som quatre germans. 	
+	   En casa somos cuatro hermanos.
+
+	9. Visc a cals padrins. Visc tot sol. Visc tota sola. 	
+	   Vivo en casa de los abuelos. Vivo solo. Vivo sola.
+
+	10. Visc en un pis. Visc en una casa amb jardí. 	
+	    Vivo en un piso. Vivo en una casa con un jardín.

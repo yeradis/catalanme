@@ -1,0 +1,18 @@
+LOCALITZACIONS
+	
+LOCALIZACIONES
+
+	1. - On és l’estació d’autobusos? - A prop, molt a prop. | Lluny, molt lluny. 	
+	   - ¿Dónde está la estación de autobuses? - Cerca, muy cerca. | Lejos, muy lejos.
+
+	2. - On és la biblioteca? - A la dreta. | A l’esquerra. | Al fons. | Tot dret. 	
+	   - ¿Dónde está la biblioteca? - A la derecha. | A la izquierda. | Al fondo. | Todo derecho.
+
+	3. Vaig al banc. Vaig a l’escola. Vaig a ca nostra. 	
+	   Voy al banco. Voy a la escuela. Voy a casa.
+
+	4. Vénc de l’hospital. Vénc de la farmàcia. Vénc de ca nostra. 	
+	   Vengo del hospital. Vengo de la farmacia. Vengo de casa.
+
+	5. Som al carrer. Som a cal metge. Som a ca nostra. 	
+	   Estoy en la calle. Estoy en la consulta del médico. Estoy en casa.
